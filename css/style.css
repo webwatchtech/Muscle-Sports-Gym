@@ -960,7 +960,7 @@ ol {
 .team-members .member-text .member-social a {
   display: inline-block;
   font-size: 12px;
-  color: #6e6e6e;
+  color: #000;
   margin-right: 8px;
 }
 
@@ -2799,4 +2799,91 @@ a:hover,
 .footer-form form select option {
   font-size: 16px;
   color: #555;
+}
+
+
+
+/*---------------------
+  Services Section
+-----------------------*/
+
+
+
+.ss-pic img {
+	height: 100%;
+	min-width: 100%;
+}
+
+.ss-text .member-social a{
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  margin-right: 8px;
+}
+
+.ss-text {
+  background: #f2f4f5;
+	padding: 30px 30px;
+	height: 293px;
+	position: relative;
+	z-index: 1;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+ .ss-text:hover {
+	background: #f2f4f5;
+}
+
+/* .ss-text:hover a {
+	color: #f36100;
+} */
+
+/* .ss-text:hover:after {
+	background: #363636;
+} */
+
+/* .ss-text:after {
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	height: 20px;
+	width: 20px;
+	background: #252525;
+	content: "";
+	-webkit-transform: rotate(45deg) translateY(-10px);
+	-ms-transform: rotate(45deg) translateY(-10px);
+	transform: rotate(45deg) translateY(-10px);
+	z-index: -1;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+} */
+
+.ss-text.second-row:after {
+	left: auto;
+	right: 0;
+}
+
+.ss-text h4 {
+	font-size: 22px;
+	color: #191919;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.ss-text p {
+	margin-bottom: 11px;
+  color: #6e6e6e;
+}
+
+.ss-text a {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
